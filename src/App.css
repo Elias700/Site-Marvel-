@@ -1,0 +1,22 @@
+
+
+/* ARQUIVO PAI DO CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box; /* Os inputs vai trabalhar com a border-box para não sairem dos limites das larguras dos elementos pais. */
+    text-shadow: #000 1px 1px;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1635863138275-d9b33299680b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hcnZlbHxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
