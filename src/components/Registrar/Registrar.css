@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    color: rgb(179, 27, 27);
+    text-decoration: underline;
+    font-size: 80px;
+    text-shadow: 5px 5px black;
+    margin-left: 170px;
+}
+
+#cadastro{
+    font-size: 30px;
+    margin-left: 140px;
+    text-decoration: none;
+    color: rgb(179, 27, 27);
+}
+
+.bodyRegistro{
+    background-color: rgba(255, 255,255, 0.15);
+    backdrop-filter: blur(10px);
+    width: 500px;
+    height: 570px;
+    padding: 50px;
+    margin-left: 210px;
+    border-radius: 20px;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 25px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    text-shadow: none;
+}
+
+.ancora{
+    margin-top:24px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
