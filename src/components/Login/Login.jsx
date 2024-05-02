@@ -91,7 +91,7 @@ const Login = () => {
 
 
                         {/*Botão */}
-                        <button type='submit'>Entrar</button>
+                        <button type='submit' onClick={() => navigate('/main')}>Entrar</button>
 
 
                         {/* Final */}

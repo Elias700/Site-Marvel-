@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-color: rgba(212, 207, 207, 0.251);
+    height: 90px;
+    width: 100%;
+    margin-bottom: 1241px;
+}
+
+.fundo{
+    /*background-color: #000;
+    height: 350vh;*/
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360vh;
+}
+
+.header1 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+li{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+li:hover{
+    color: rgb(179, 27, 27);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.title1{
+    text-decoration: none;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 100px;
+}
+
+#logo1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.edicaoImg{
+    display:inline-block;
+    margin-top: 110px;
+    margin-left: 130px; 
+}
+
+img{
+    width: 450px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
+
+.rodaPe{
+    background-color: #000;
+    padding: 60px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.title2{
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 30px;
+}
+
+.paragrafo{
+    color: white;
+}
+
+
+
+
