@@ -62,16 +62,12 @@ const Main = () => {
 
       <div className='header1'>
 
-          <div className='edicaoLogo'>
-
-            </div>
-
-              <ul>
-                  <li onClick={() => navigate('/')}>INÍCIO</li>
-                  <li>PESQUISA</li>
-                  <li>FILMES</li>
-                  <li onClick={() => navigate('/series')}>SÉRIES</li>
-              </ul>
+        <ul>
+          <li onClick={() => navigate('/')}>INÍCIO</li>
+          <li>PESQUISA</li>
+          <li>FILMES</li>
+          <li onClick={() => navigate('/series')}>SÉRIES</li>
+        </ul>
 
       </div>
 
