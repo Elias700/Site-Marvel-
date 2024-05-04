@@ -19,7 +19,7 @@
     background-image: url('');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 360vh;
+    height: 580vh;
 }
 
 .header1 ul{
@@ -82,6 +82,7 @@ img:hover{
     text-decoration: none;
     text-shadow: none;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .paragrafo{

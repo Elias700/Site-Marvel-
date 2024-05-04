@@ -33,7 +33,23 @@ const Main = () => {
     {id: 21, img: 'https://s2-gshow.glbimg.com/gNNOTGzTHY83VKSsoZubqAT-dEM=/0x0:720x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2023/B/B/r6KVDMRPeSB9p1plIr3w/homem-formiga.jpg'},
     {id: 22, img: 'https://br.web.img3.acsta.net/medias/nmedia/18/91/79/19/20163665.jpg'},
     {id: 23, img: 'https://cinepop.com.br/wp-content/uploads/2022/10/pantera-negra-2.jpg'},
-    {id: 24, img: 'https://media.fstatic.com/KLfCyPP1iAp0RA-3I_fyHw2ANCY=/322x478/smart/filters:format(webp)/media/movies/covers/2023/09/cats_mhahDIJ.jpg'}
+    {id: 24, img: 'https://media.fstatic.com/KLfCyPP1iAp0RA-3I_fyHw2ANCY=/322x478/smart/filters:format(webp)/media/movies/covers/2023/09/cats_mhahDIJ.jpg'},
+    {id: 25, img: 'https://www.kinoplex.com.br/filmes/images/cartaz/262x388/deadpool-2.jpg?'},
+    {id: 26, img: 'https://cinemaemcena.com.br/uploads/criticas_old/filmes-7309-cartazes-ironman2_16.jpg'},
+    {id: 27, img: 'https://play-lh.googleusercontent.com/orFZm7MCZtOM0WH2R4K4Mc4k0bI3IR3w2UkJyBzKrAZPy8gYx7G8zMq-1DwP_HGvpf6x'},
+    {id: 28, img: 'https://br.web.img3.acsta.net/pictures/17/03/03/19/15/268212.jpg'},
+    {id: 29, img: 'https://br.web.img3.acsta.net/pictures/17/03/03/19/15/268212.jpg'},
+    {id: 30, img: 'https://www.sonypictures.com.br/sites/brazil/files/2022-03/HA1_KEY%20ART.JPG'},
+    {id: 31, img: 'https://br.web.img3.acsta.net/pictures/17/08/26/00/05/175443.jpg'},
+    {id: 32, img: 'https://m.media-amazon.com/images/I/81-afyi6MpL._AC_UF894,1000_QL80_DpWeblab_.jpg'},
+    {id: 33, img: 'https://br.web.img3.acsta.net/c_310_420/pictures/210/544/21054460_2013103118041242.jpg'},
+    {id: 34, img: 'https://upload.wikimedia.org/wikipedia/pt/thumb/9/90/Ant_Man-Poster.jpg/250px-Ant_Man-Poster.jpg'},
+    {id: 35, img: 'https://upload.wikimedia.org/wikipedia/pt/0/08/Doctor_Strange_in_the_Multiverse_of_Madness_poster.jpeg'},
+    {id: 36, img: 'https://musicart.xboxlive.com/7/d7fc4500-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080'},
+    {id: 37, img: 'https://play-lh.googleusercontent.com/bP0i1LQiHcouz_8PwAOCMTVhLdoYey2DkAaVpdEXxteIXlD8MxnyzEhG1vqIfZQBx_gC'},
+    {id: 38, img: 'https://3.bp.blogspot.com/-fOq55Dwl2RU/UIPfsrFrOOI/AAAAAAAAJZ4/LcuhCSG0JyU/s1600/O+Espetacular+Homem+Aranha1.jpg'},
+    {id: 39, img: 'https://m.media-amazon.com/images/I/81nLIF+eJ7L._AC_UF894,1000_QL80_.jpg'},
+    {id: 40, img: 'https://uploads.jovemnerd.com.br/wp-content/uploads/AFTER_PARTY_ULTRON_BRAZIL.jpg?ims=filters:quality(75)'}
   ] 
 
 
