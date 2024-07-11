@@ -10,15 +10,15 @@ const Main = () => {
 
   const Filmes = [
 
-    {id: 1, img: 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/08/22/904529/20220822165411735177e.webp',},
-    {id: 2, img: 'https://hqrock.files.wordpress.com/2013/03/iron-man-3-official-poster-imax-caracters.jpg'},
-    {id: 3, img: 'https://super.abril.com.br/wp-content/uploads/2018/07/cartaz-thor.jpg' },
-    {id: 4, img: 'https://br.web.img3.acsta.net/pictures/14/02/03/20/36/257136.jpg' },
-    {id: 5, img: 'https://br.web.img3.acsta.net/pictures/14/06/03/21/11/122582.jpg' },
-    {id: 6, img: 'https://moviesense.files.wordpress.com/2018/04/avengers-infinity-war.jpg?w=1200'},
-    {id: 7, img: 'https://img.elo7.com.br/product/zoom/265F120/big-poster-filme-homem-formiga-lo02-tamanho-90x60-cm-poster-cinema.jpg'},
-    {id: 8, img: 'https://upload.wikimedia.org/wikipedia/pt/5/59/Captain_Marvel_%282018%29.jpg'},
-    {id: 9, img: 'https://lumiere-a.akamaihd.net/v1/images/image_a2514f6d.jpeg?region=0,0,540,810'},
+    {id: 1 , img: 'https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/08/22/904529/20220822165411735177e.webp',},
+    {id: 2 , img: 'https://hqrock.files.wordpress.com/2013/03/iron-man-3-official-poster-imax-caracters.jpg'},
+    {id: 3 , img: 'https://super.abril.com.br/wp-content/uploads/2018/07/cartaz-thor.jpg' },
+    {id: 4 , img: 'https://br.web.img3.acsta.net/pictures/14/02/03/20/36/257136.jpg' },
+    {id: 5 , img: 'https://br.web.img3.acsta.net/pictures/14/06/03/21/11/122582.jpg' },
+    {id: 6 , img: 'https://moviesense.files.wordpress.com/2018/04/avengers-infinity-war.jpg?w=1200'},
+    {id: 7 , img: 'https://img.elo7.com.br/product/zoom/265F120/big-poster-filme-homem-formiga-lo02-tamanho-90x60-cm-poster-cinema.jpg'},
+    {id: 8 , img: 'https://upload.wikimedia.org/wikipedia/pt/5/59/Captain_Marvel_%282018%29.jpg'},
+    {id: 9 , img: 'https://lumiere-a.akamaihd.net/v1/images/image_a2514f6d.jpeg?region=0,0,540,810'},
     {id: 10, img: 'https://lumiere-a.akamaihd.net/v1/images/unnamed_13_75a3ebb1.jpeg?region=0%2C0%2C356%2C512'},
     {id: 11, img: 'https://br.web.img3.acsta.net/pictures/16/09/29/21/15/495786.jpg'},
     {id: 12, img: 'https://img.elo7.com.br/product/zoom/25E7D5A/big-poster-filme-vingadores-ultimato-lo002-tamanho-90x60-cm-poster-cinema.jpg'},
@@ -50,47 +50,33 @@ const Main = () => {
     {id: 38, img: 'https://3.bp.blogspot.com/-fOq55Dwl2RU/UIPfsrFrOOI/AAAAAAAAJZ4/LcuhCSG0JyU/s1600/O+Espetacular+Homem+Aranha1.jpg'},
     {id: 39, img: 'https://m.media-amazon.com/images/I/81nLIF+eJ7L._AC_UF894,1000_QL80_.jpg'},
     {id: 40, img: 'https://uploads.jovemnerd.com.br/wp-content/uploads/AFTER_PARTY_ULTRON_BRAZIL.jpg?ims=filters:quality(75)'}
-  ] 
+
+  ];
 
 
   return (
 
   <div className="fundo">
-
- 
     <div className='background'>
-
       <div className='header1'>
-
         <ul>
-          <li onClick={() => navigate('/')}>INÍCIO</li>
-          <li>PESQUISA</li>
-          <li>FILMES</li>
-          <li onClick={() => navigate('/series')}>SÉRIES</li>
+          <li onClick={() => navigate('/')}>LOGIN</li>
         </ul>
-
       </div>
 
       <h1 className='title1'>Filmes</h1>
 
       {Filmes.map((filme, id) => (
-        
-            <div className='edicaoImg'>
-
-              <img key={id} style={{height: '600px'}} src={filme.img} alt="" />
-              
-            </div>
-
+        <div className='edicaoImg'>
+          <img key={id} className='iamgensFilmes' src={filme.img} alt="" />
+        </div>
       ))}
 
         <footer className='rodaPe'> 
-          
           <h1 className='title2'>Marvel Movies</h1> 
-      
         </footer>
 
         </div>
-
     </div>
 
     

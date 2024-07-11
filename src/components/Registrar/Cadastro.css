@@ -9,14 +9,14 @@
 h1{
     color: rgb(179, 27, 27);
     text-decoration: underline;
-    font-size: 80px;
+    font-size: 40px;
     text-shadow: 5px 5px black;
-    margin-left: 170px;
+    margin-left: 280px;
 }
 
 #cadastro{
     font-size: 30px;
-    margin-left: 140px;
+    margin-left: 100px;
     text-decoration: none;
     color: rgb(179, 27, 27);
 }
@@ -24,8 +24,8 @@ h1{
 .bodyRegistro{
     background-color: rgba(255, 255,255, 0.15);
     backdrop-filter: blur(10px);
-    width: 500px;
-    height: 570px;
+    width: 450px;
+    height: 470px;
     padding: 50px;
     margin-left: 210px;
     border-radius: 20px;
@@ -34,7 +34,7 @@ h1{
 .input {
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 25px;
     margin: 30px auto;
 }
 
@@ -80,3 +80,14 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 480px){
+    bodyRegistro{
+        margin-left: 180px;
+    }
+
+   h1{
+    margin-left: 190px;
+   }
+}
+
